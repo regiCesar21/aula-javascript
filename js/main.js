@@ -50,6 +50,27 @@ function soma(n1, n2){
     return n1 + n2;
 }
 
+function clicou(){
+    document.getElementById("agradecimento").innerHTML = "<b>Obrigado por clicar</b>";
+    console.log()
+   // alert("Obrigado por clicar");
+}
+
+function redirecionar(){
+    window.open("https://google.com");
+    
+}
+
+function trocar(){
+    document.getElementById("mousemove").innerHTML = "Teste";
+    //alert("Trocar texto");
+}
+
+function voltar(){
+    document.getElementById("mousemove").innerHTML = "Passe o mouse aqui";
+}
+
+/*
 function validaIdade(idade){
     var validar = true;
     if(idade >= 18){
@@ -62,8 +83,8 @@ function validaIdade(idade){
 
 var idade = prompt("ual a sua idade");
 console.log(validaIdade(idade));
+*/
 
 
 
-
-alert(soma(5,16));
+//alert(soma(5,16));
