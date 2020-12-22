@@ -45,3 +45,25 @@ for(count = 0; count <= 5; count++){
 }
 
 */
+
+function soma(n1, n2){
+    return n1 + n2;
+}
+
+function validaIdade(idade){
+    var validar = true;
+    if(idade >= 18){
+        validar = true;
+    } else{
+        validar = false;
+    }
+    return validar;
+}
+
+var idade = prompt("ual a sua idade");
+console.log(validaIdade(idade));
+
+
+
+
+alert(soma(5,16));
